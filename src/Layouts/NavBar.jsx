@@ -2,7 +2,6 @@ import { Routes, Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
-    <Routes>
         <nav className='bg-dark'>
         
         <ul className="nav-links">
@@ -17,7 +16,6 @@ const NavBar = () => {
         </ul>
 
         </nav>
-    </Routes>
   )
 }
 

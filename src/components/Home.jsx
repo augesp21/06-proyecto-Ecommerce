@@ -1,11 +1,13 @@
 import NavBar from '../Layouts/NavBar'
-import { Router } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <Router>
-         <NavBar/>
-    </Router>
+    <>
+     <NavBar/>
+    <Routes>
+    </Routes>
+    </>
 
   )
 }
