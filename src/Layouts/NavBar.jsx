@@ -2,18 +2,24 @@ import { Routes, Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
-        <nav className='bg-dark'>
+        <nav className='nav bg-dark'>
+          <div className='container justify-content-space-around'>
+            <ul className="nav nav-links">
+          
+              <li className='nav-item'>
+                <Link to='/'>Home</Link>
+              </li>
+
+              <li className='nav-item'>
+                <Link to='/items'>Items</Link>
+              </li>
+                
+              <input type="text" className='form me-2' /> 
+            </ul>
+
+          </div>
+
         
-        <ul className="nav-links">
-            <Link to='/'>
-            <li>Home</li>
-            </Link>
-
-            <Link to='user-screen'>
-            <li>Items</li>
-            </Link>
-
-        </ul>
 
         </nav>
   )
