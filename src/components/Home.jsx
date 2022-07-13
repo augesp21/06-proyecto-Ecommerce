@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import Cards from '../../../ecommerce/src/components/Cards'
 import NavBar from '../Layouts/NavBar'
+import Cards from './Cards'
 
 
 const Home = () => {

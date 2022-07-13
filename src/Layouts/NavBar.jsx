@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Cards from '../../../ecommerce/src/components/Cards'
 
 
 const NavBar = () => {
